@@ -1,0 +1,8 @@
+schemaVersion: 1.1
+proxy:
+  type: REST
+  docPath: ''
+  thumbnailPath: ''
+  networkVisibilities:
+    - Public
+  schemaFilePath: openapi.yaml
