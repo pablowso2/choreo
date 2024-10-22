@@ -6,3 +6,13 @@ proxy:
   networkVisibilities:
     - Public
   schemaFilePath: openapi.yaml
+endpoints:
+  - name: pet-mock
+    service:
+      port: 9090
+      basePath: /
+    type: REST
+    displayName: Pet-Mock
+    networkVisibilities:
+      - Public
+    schemaFilePath: openapi.yaml
